@@ -1,0 +1,353 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./images/bg-header-desktop.png);
+    background-position-x: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.history-section{
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-top: 9%;
+}
+.history-section .text{
+    padding: 3% 25%;
+}
+.history-section h1{
+    font-size: 3rem;
+    margin-top: 4%;
+    color: hsl(210, 10%, 33%);
+}
+.history-section p{
+    padding: 3%;
+    color: hsl(201, 11%, 66%);
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+}
+.buttons{
+    display: flex;
+}
+.buttons button{
+    width: 15rem;
+    border-radius: 3rem;
+    padding: 2.5% 5%;
+    color: white;
+    border: none;
+    margin-right: 4%;
+    font-size: 1rem;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.button-1{
+    background: hsl(171, 66%, 44%);
+    box-shadow: rgba(91, 177, 167, 0.759) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.button-2{
+    background: hsl(233, 100%, 69%);
+    box-shadow: rgb(39, 130, 235) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.snippets-section{
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+.snippets-section h2{
+    color: hsl(210, 10%, 33%);
+    font-size: 2.4rem;
+}
+.snippets-section p{
+    padding: 2% 25%;
+    font-size: 1.2rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.9rem;
+}
+.computer-section{
+    display: flex;
+    gap: 9rem;
+    margin-left: -2%;
+    margin-bottom: 9%;
+}
+.computer-section h3{
+    font-size: 1.3rem;
+    margin-top: 10%;
+    color: hsl(210, 10%, 33%);
+}
+.computer-section p{
+    color: hsl(201, 11%, 66%);
+    padding-right: 45%;
+    margin-top: 1.5%;
+    line-height: 1.9rem;
+    font-size: 1rem;
+}
+.access-section{
+    text-align: center;
+    margin-bottom: 7%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.access-section h4{
+    font-size: 2.4rem;
+    color: hsl(210, 10%, 33%);
+}
+.access-section p{
+    margin-top: 2%;
+    font-size: 1.2rem;
+    color: hsl(201, 11%, 66%);
+    padding: 2% 25%;
+    line-height: 1.9rem;
+}
+.supercharge-section{
+    text-align: center;
+}
+.supercharge-section h5{
+    font-size: 2.4rem;
+    color: hsl(210, 10%, 33%);
+}
+.supercharge-section p{
+    margin-top: 2%;
+    font-size: 1.2rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.9rem;
+}
+.workflow{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 5%;
+    gap: 1rem;
+}
+.workflow h6{
+    font-size: 1.3rem;
+    color: hsl(210, 10%, 33%);
+    margin-top: 9%;
+}
+.workflow .create-blacklists img{
+    height: 2rem;
+    width: 2.5rem;
+}
+.workflow .create-blacklists{
+    width: 28%;
+}
+.workflow .plain-text{
+    width: 28%;
+}
+.workflow .sneak-preview{
+    width: 28%;
+}
+.sponsors-section{
+    display: flex;
+    gap: 6.5rem;
+   justify-content: center;
+   padding: 5% 0%;
+}
+.microsoft-logo{
+    height: 2.5rem;
+}
+.vector-logo{
+    height: 2.5rem;
+}
+.os-section{
+    text-align: center;
+    padding: 5% 25%;
+    display: grid;
+    place-items: center;
+    margin-bottom: 5%;
+}
+.os-section h6{
+    font-size: 2.4rem;
+    color: hsl(210, 10%, 33%);
+}
+.os-section p{
+    margin-top: 3%;
+    font-size: 1.2rem;
+    color: hsl(201, 11%, 66%);
+    line-height: 1.9rem;
+    margin-bottom: 13%;
+}
+footer{
+    background: rgb(244, 242, 242);
+    height: 10rem;
+    width: 100%;
+    padding: 3%;
+    position: relative;
+    bottom: 1%;
+}
+footer img{
+    height: 4rem;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.main-footer a{
+   line-height: 1.9rem;
+   text-decoration: none;
+   color: hsl(210, 2%, 45%);
+   font-weight: 600;
+}
+.socials{
+    display: flex;
+}
+i{
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 25%;
+    color: hsl(210, 2%, 45%);
+}
+.attribution{
+    position: relative;
+    margin-top: 2%;
+    text-align: center;
+    color: hsl(171, 66%, 44%);
+    font-size: 0.9rem;
+}
+.attribution a{
+    color: hsl(171, 66%, 44%);
+    text-decoration: overline;
+}
+.attribution a:hover{
+    color: hsl(233, 100%, 69%);
+}
+
+/* Responiveness */
+@media screen and (max-width: 50rem) {
+    body{
+        background: url(./images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-position-x: 100%;
+    }
+    .history-section .text{
+        padding: 7% 4%;
+    }
+    .history-section h1{
+        font-size: 2rem;
+    }
+    .history-section p{
+        font-size: 1rem;
+    }
+    .buttons{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .buttons button{
+        width: 17rem;
+       padding: 4%;
+    }
+    .snippets-section{
+        padding: 5% 1%;
+    }
+    .snippets-section h2{
+        font-size: 1.7rem;
+    }
+    .snippets-section p{
+        font-size: 1rem;
+        padding: 4% 4%;
+    }
+    .computer-section{
+        flex-direction: column;
+        display: grid;
+        place-items: center;
+        text-align: center;
+        margin-top: 15%;
+        margin-bottom: 30%;
+        gap: 5rem;
+    }
+    .computer-section img{
+        width: 17rem;
+        height: 13rem;
+    }
+    .computer-section .text{
+        margin-top: -15%;
+    }
+    .computer-section p{
+        font-size: 1rem;
+        padding: 0% 5%;
+    }
+    .access-section{
+        margin-bottom: 25%;
+        gap: 3rem;
+    }
+    .access-section h4{
+        font-size: 1.7rem;
+        padding: 0% 1%;
+    }
+    .access-section p{
+        font-size: 1rem;
+        padding: 2% 5%;
+    }
+    .access-section img{
+        width: 20rem;
+    }
+    .supercharge-section{
+        padding: 0% 5%;
+    }
+    .supercharge-section h5{
+        font-size: 1.7rem;
+    }
+    .supercharge-section p{
+        font-size: 1rem;
+        padding-bottom: 40%;
+    }
+    .workflow{
+        flex-direction: column;
+    }
+    .workflow .create-blacklists,
+    .workflow .sneak-preview,
+    .workflow .plain-text{
+        width: 100%;
+        margin-top: -30%;
+    }
+    .workflow p{
+        font-size: 0.9rem;
+    }
+    .sponsors-section{
+        flex-direction: column;
+        display: grid;
+    }
+    .sponsors-section img{
+        width: 10rem;
+    }
+    .os-section{
+        padding: 0% 7.5%;
+        margin-top: 35%;
+        margin-bottom: 30%;
+    }
+    .os-section h6{
+        font-size: 1.7rem;
+    }
+    .os-section p{
+        font-size: 1rem;
+    }
+    footer{
+        height: 33rem;
+        padding: 7% 0%;
+    }
+    .main-footer{
+        flex-direction: column;
+        text-align: center;
+        display: grid;
+        place-items: center;
+    }
+    .main-footer img{
+        width: 4rem;
+    }
+    .main-footer p{
+        margin-top: 23%;
+    }
+    .socials{
+        justify-content: space-evenly;
+        margin-top: 5%;
+        margin-bottom: 35%;
+    }
+}
